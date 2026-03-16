@@ -2,6 +2,7 @@ package org.example.userservice.controller
 
 import org.example.userservice.entity.UserEntity
 import org.example.userservice.services.UserService
+import org.springframework.beans.factory.annotation.Value
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
@@ -9,6 +10,17 @@ import org.springframework.web.bind.annotation.*
 @RestController
 @RequestMapping("/users")
 class UserRestController {
+
+    @Value("\${my.custom.hello}")
+    lateinit var customProperty: String
+
+
+    //http://localhost:8080/users/test
+    @GetMapping("/test")
+    fun test(): String {
+        println("/test")
+        return "helloWorld : $customProperty"
+    }
 
     //http://localhost:8080/users
     //{"login":"aaa", "password":"bbb"}
@@ -60,10 +72,5 @@ class UserRestController {
 
 
 
-    //http://localhost:8080/test
-    @GetMapping("/test")
-    fun test(): String {
-        println("/test")
-        return "helloWorld"
-    }
+
 }

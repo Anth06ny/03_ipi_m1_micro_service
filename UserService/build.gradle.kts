@@ -35,6 +35,13 @@ kotlin {
     }
 }
 
+tasks.named<org.springframework.boot.gradle.tasks.bundling.BootJar>("bootJar") {
+    archiveFileName.set("monUserServer.jar")
+    destinationDirectory.set(file("$rootDir")) //pour le mettre à la racine
+    //S'il y a plusieurs main il faut bien mettre celui qui lance le serveur
+    mainClass.set("org.example.userservice.UserServiceApplicationKt")
+}
+
 tasks.withType<Test> {
     useJUnitPlatform()
 }
