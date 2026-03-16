@@ -2,6 +2,9 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MoviesService" options="-parameters" />
+      <module name="MoviesService.main" options="-parameters" />
+      <module name="MoviesService.test" options="-parameters" />
       <module name="UserService" options="-parameters" />
       <module name="UserService.main" options="-parameters" />
       <module name="UserService.test" options="-parameters" />
