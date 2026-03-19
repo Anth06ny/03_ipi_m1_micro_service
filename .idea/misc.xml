@@ -1,6 +1,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/AdminService" />
     <file type="web" url="file://$PROJECT_DIR$/EurekaServer" />
     <file type="web" url="file://$PROJECT_DIR$/MoviesService" />
     <file type="web" url="file://$PROJECT_DIR$/UserService" />

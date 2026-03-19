@@ -1,6 +1,8 @@
 package org.example.userservice.controller
 
 import org.springframework.beans.factory.annotation.Qualifier
+import org.springframework.core.ParameterizedTypeReference
+import org.springframework.http.HttpMethod
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
@@ -17,6 +19,7 @@ class TestMoviesController(
 
     //Accès classique par lien direct à un autre MicroService
     //http://localhost:8080/mymovies/directAccess
+    //http://localhost:9090/UserService/mymovies/directAccess
     @GetMapping("/directAccess")
     fun directAccess(): List<MovieEntity>? {
         println("/directAccess")
@@ -29,18 +32,6 @@ class TestMoviesController(
 
         return res?._embedded?.movieEntities
     }
-
-//    //Accès classique par lien direct à un autre MicroService
-//    //http://localhost:8080/mymovies/directAccess2
-//    @GetMapping("/directAccess2")
-//    fun directAccess2(): MoviesEntityResponse? {
-//        println("/directAccess")
-//
-//        val res =
-//            restTemplate.getForObject("http://localhost:8081/movieEntities", MoviesEntityResponse::class.java)
-//
-//        return res
-//    }
 
     //Accès utilisant le lien de LoadBalancing
     //http://localhost:8080/mymovies/directAccessLB

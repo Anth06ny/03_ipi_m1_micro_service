@@ -1,0 +1,1181 @@
+2026-03-19T13:03:58.228+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.e.e.EurekaServerApplicationKt          : Starting EurekaServerApplicationKt using Java 17.0.6 with PID 27932 (C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\EurekaServer\build\classes\kotlin\main started by anth0 in C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service)
+2026-03-19T13:03:58.236+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.e.e.EurekaServerApplicationKt          : No active profile set, falling back to 1 default profile: "default"
+2026-03-19T13:03:58.398+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19T13:03:58.401+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19T13:04:01.526+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82144584-e790-37d3-9ee2-203bc7c7920f
+2026-03-19T13:04:02.191+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8761 (http)
+2026-03-19T13:04:02.219+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-19T13:04:02.219+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19T13:04:02.325+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3923 ms
+2026-03-19T13:04:03.273+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.e.m.MoviesServiceApplicationKt         : Starting MoviesServiceApplicationKt using Java 17.0.6 with PID 3744 (C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\MoviesService\build\classes\kotlin\main started by anth0 in C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service)
+2026-03-19T13:04:03.289+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.e.m.MoviesServiceApplicationKt         : No active profile set, falling back to 1 default profile: "default"
+2026-03-19T13:04:03.384+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19T13:04:03.385+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19T13:04:04.432+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-03-19T13:04:04.433+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-03-19T13:04:04.762+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-03-19T13:04:04.763+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-03-19T13:04:05.073+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-03-19T13:04:05.390+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.e.m.MoviesServiceApplicationKt         : Starting MoviesServiceApplicationKt using Java 17.0.6 with PID 25424 (C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\MoviesService\build\classes\kotlin\main started by anth0 in C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service)
+2026-03-19T13:04:05.397+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.e.m.MoviesServiceApplicationKt         : No active profile set, falling back to 1 default profile: "default"
+2026-03-19T13:04:05.517+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19T13:04:05.519+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19T13:04:07.161+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19T13:04:07.450+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 274 ms. Found 1 JPA repository interface.
+2026-03-19T13:04:07.567+01:00  WARN 27932 --- [EurekaServer] [restartedMain] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-19T13:04:07.614+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-19T13:04:07.643+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-19T13:04:07.644+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-03-19T13:04:07.649+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1773921847646 with initial instances count: 0
+2026-03-19T13:04:07.750+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2026-03-19T13:04:07.753+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2026-03-19T13:04:07.868+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-03-19T13:04:07.869+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-03-19T13:04:07.869+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-03-19T13:04:07.869+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-03-19T13:04:07.930+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2026-03-19T13:04:07.944+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2026-03-19T13:04:07.945+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2026-03-19T13:04:07.954+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoints beneath base path '/actuator'
+2026-03-19T13:04:08.069+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKASERVER with eureka with status UP
+2026-03-19T13:04:08.091+01:00  INFO 27932 --- [EurekaServer] [Thread-13] [                                                 ] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2026-03-19T13:04:08.091+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8761 (http) with context path '/'
+2026-03-19T13:04:08.092+01:00  INFO 27932 --- [EurekaServer] [Thread-13] [                                                 ] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2026-03-19T13:04:08.092+01:00  INFO 27932 --- [EurekaServer] [Thread-13] [                                                 ] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2026-03-19T13:04:08.092+01:00  INFO 27932 --- [EurekaServer] [Thread-13] [                                                 ] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2026-03-19T13:04:08.092+01:00  INFO 27932 --- [EurekaServer] [Thread-13] [                                                 ] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2026-03-19T13:04:08.093+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2026-03-19T13:04:08.096+01:00  INFO 27932 --- [EurekaServer] [Thread-13] [                                                 ] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2026-03-19T13:04:08.235+01:00  INFO 27932 --- [EurekaServer] [restartedMain] [                                                 ] o.e.e.EurekaServerApplicationKt          : Started EurekaServerApplicationKt in 10.868 seconds (process running for 12.211)
+2026-03-19T13:04:08.354+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=95947f9d-913d-37e3-9cdd-bc47e3107658
+2026-03-19T13:04:08.433+01:00  WARN 27932 --- [EurekaServer] [registrationTask1] [                                                 ] .c.b.a.c.r.DefaultApplicationRegistrator : Failed to register application as Application(name=EurekaServer, managementUrl=http://10.29.16.73:8761/actuator, healthUrl=http://10.29.16.73:8761/actuator/health, serviceUrl=http://10.29.16.73:8761/) at spring-boot-admin ([http://localhost:8083//instances]): I/O error on POST request for "http://localhost:8083/instances": Connect to http://localhost:8083 failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8083/instances": Connect to http://localhost:8083 failed: Connection refused: no further information
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:763) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:615) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:908) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:831) ~[spring-web-7.0.5.jar:7.0.5]
+	at de.codecentric.boot.admin.client.registration.RestClientRegistrationClient.register(RestClientRegistrationClient.java:45) ~[spring-boot-admin-client-4.0.2.jar:4.0.2]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:80) ~[spring-boot-admin-client-4.0.2.jar:4.0.2]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:61) ~[spring-boot-admin-client-4.0.2.jar:4.0.2]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-7.0.5.jar:7.0.5]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8083 failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:226) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:168) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.5.2.jar:5.5.2]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:609) ~[spring-web-7.0.5.jar:7.0.5]
+	... 14 common frames omitted
+
+2026-03-19T13:04:08.799+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19T13:04:08.806+01:00  INFO 27932 --- [EurekaServer] [RMI TCP Connection(3)-10.29.16.73] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19T13:04:08.807+01:00  INFO 27932 --- [EurekaServer] [RMI TCP Connection(3)-10.29.16.73] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-19T13:04:08.810+01:00  INFO 27932 --- [EurekaServer] [RMI TCP Connection(3)-10.29.16.73] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-19T13:04:09.096+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 270 ms. Found 1 JPA repository interface.
+2026-03-19T13:04:09.210+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-19T13:04:09.230+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-19T13:04:09.231+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19T13:04:09.307+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5922 ms
+2026-03-19T13:04:09.505+01:00  WARN 27932 --- [EurekaServer] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2026-03-19T13:04:09.506+01:00  WARN 27932 --- [EurekaServer] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 1 spans due to ConnectException()
+
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:na]
+	at org.springframework.boot.zipkin.autoconfigure.ZipkinHttpClientSender.postSpans(ZipkinHttpClientSender.java:59) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:69) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:41) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.5.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	... 1 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:na]
+	... 9 common frames omitted
+
+2026-03-19T13:04:09.725+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=95947f9d-913d-37e3-9cdd-bc47e3107658
+2026-03-19T13:04:10.254+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19T13:04:10.439+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-19T13:04:10.900+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-03-19T13:04:10.936+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-19T13:04:10.938+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19T13:04:11.134+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5614 ms
+2026-03-19T13:04:11.824+01:00  INFO 18180 --- [AdminService] [restartedMain] o.e.a.AdminServiceApplicationKt          : Starting AdminServiceApplicationKt using Java 17.0.6 with PID 18180 (C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\AdminService\build\classes\kotlin\main started by anth0 in C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service)
+2026-03-19T13:04:11.830+01:00  INFO 18180 --- [AdminService] [restartedMain] o.e.a.AdminServiceApplicationKt          : No active profile set, falling back to 1 default profile: "default"
+2026-03-19T13:04:11.852+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19T13:04:11.900+01:00  INFO 18180 --- [AdminService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19T13:04:11.907+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-19T13:04:12.020+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19T13:04:12.099+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-19T13:04:12.244+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./testdb user=SA
+2026-03-19T13:04:12.247+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-19T13:04:12.297+01:00  WARN 3744 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19T13:04:12.335+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:file:./testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19T13:04:12.996+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19T13:04:13.043+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-19T13:04:13.161+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./testdb user=SA
+2026-03-19T13:04:13.164+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-19T13:04:13.194+01:00  WARN 25424 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19T13:04:13.226+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:file:./testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19T13:04:13.972+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19T13:04:14.110+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19T13:04:14.199+01:00  WARN 18180 --- [AdminService] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-03-19T13:04:14.280+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19T13:04:14.604+01:00  INFO 18180 --- [AdminService] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-03-19T13:04:14.684+01:00  WARN 3744 --- [MoviesService] [restartedMain] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19T13:04:14.867+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19T13:04:14.938+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19T13:04:15.036+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19T13:04:15.188+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.e.u.UserServiceApplicationKt           : Starting UserServiceApplicationKt using Java 21.0.6 with PID 11752 (C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\UserService\build\classes\kotlin\main started by anth0 in C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service)
+2026-03-19T13:04:15.193+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.e.u.UserServiceApplicationKt           : The following 1 profile is active: "local"
+2026-03-19T13:04:15.259+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19T13:04:15.259+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19T13:04:15.364+01:00  INFO 18180 --- [AdminService] [restartedMain] o.s.boot.reactor.netty.NettyWebServer    : Netty started on port 8083 (http)
+2026-03-19T13:04:15.376+01:00  INFO 18180 --- [AdminService] [restartedMain] o.e.a.AdminServiceApplicationKt          : Started AdminServiceApplicationKt in 4.221 seconds (process running for 5.512)
+2026-03-19T13:04:15.401+01:00  WARN 25424 --- [MoviesService] [restartedMain] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19T13:04:16.294+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./testdb'
+2026-03-19T13:04:16.553+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-19T13:04:16.601+01:00  WARN 3744 --- [MoviesService] [restartedMain] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-19T13:04:16.605+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoints beneath base path '/actuator'
+2026-03-19T13:04:16.714+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-19T13:04:16.917+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./testdb'
+2026-03-19T13:04:17.095+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-19T13:04:17.099+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3588df70-cb27-3bb6-8814-0750c3acf6a2
+2026-03-19T13:04:17.140+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MOVIESSERVICE with eureka with status UP
+2026-03-19T13:04:17.143+01:00  WARN 25424 --- [MoviesService] [restartedMain] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-19T13:04:17.147+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoints beneath base path '/actuator'
+2026-03-19T13:04:17.153+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-19T13:04:17.154+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2026-03-19T13:04:17.259+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-19T13:04:17.266+01:00  INFO 3744 --- [MoviesService] [restartedMain] [                                                 ] o.e.m.MoviesServiceApplicationKt         : Started MoviesServiceApplicationKt in 15.05 seconds (process running for 16.568)
+2026-03-19T13:04:17.285+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-1] [69bbe641e4825643a39230d8ceaba3da-62edd2e88783ea1d] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIESSERVICE/PC_Pro:MoviesService:8081 with status UP (replication=false)
+2026-03-19T13:04:17.490+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-19T13:04:17.509+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-19T13:04:17.510+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19T13:04:17.547+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MOVIESSERVICE with eureka with status UP
+2026-03-19T13:04:17.561+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-03-19T13:04:17.563+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2026-03-19T13:04:17.564+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2304 ms
+2026-03-19T13:04:17.594+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-4] [69bbe641aeac7a4c07b4aa4996cfd803-62c4052b2b3d1563] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIESSERVICE/PC_Pro:MoviesService:8082 with status UP (replication=false)
+2026-03-19T13:04:17.657+01:00  INFO 25424 --- [MoviesService] [restartedMain] [                                                 ] o.e.m.MoviesServiceApplicationKt         : Started MoviesServiceApplicationKt in 13.297 seconds (process running for 14.747)
+2026-03-19T13:04:17.742+01:00  WARN 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-19T13:04:17.743+01:00  WARN 3744 --- [MoviesService] [restartedMain] [                                                 ] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-19T13:04:17.967+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-5] [69bbe641ef65a2333ef0a646be7d0934-3ef0a646be7d0934] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIESSERVICE/PC_Pro:MoviesService:8081 with status UP (replication=true)
+2026-03-19T13:04:17.968+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-5] [69bbe641ef65a2333ef0a646be7d0934-3ef0a646be7d0934] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIESSERVICE/PC_Pro:MoviesService:8082 with status UP (replication=true)
+2026-03-19T13:04:18.044+01:00  INFO 3744 --- [MoviesService] [RMI TCP Connection(2)-10.29.16.73] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19T13:04:18.045+01:00  INFO 3744 --- [MoviesService] [RMI TCP Connection(2)-10.29.16.73] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-19T13:04:18.050+01:00  INFO 3744 --- [MoviesService] [RMI TCP Connection(2)-10.29.16.73] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-03-19T13:04:18.219+01:00  WARN 3744 --- [MoviesService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2026-03-19T13:04:18.219+01:00  WARN 3744 --- [MoviesService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 2 spans due to ConnectException()
+
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:na]
+	at org.springframework.boot.zipkin.autoconfigure.ZipkinHttpClientSender.postSpans(ZipkinHttpClientSender.java:59) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:69) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:41) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.5.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	... 1 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:na]
+	... 9 common frames omitted
+
+2026-03-19T13:04:18.290+01:00  WARN 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-19T13:04:18.291+01:00  WARN 25424 --- [MoviesService] [restartedMain] [                                                 ] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-19T13:04:18.359+01:00  INFO 3744 --- [MoviesService] [registrationTask1] [                                                 ] .c.b.a.c.r.DefaultApplicationRegistrator : Application registered itself as cf56e721ffd7
+2026-03-19T13:04:18.378+01:00  INFO 27932 --- [EurekaServer] [registrationTask1] [                                                 ] .c.b.a.c.r.DefaultApplicationRegistrator : Application registered itself as 84b4ffb44d45
+2026-03-19T13:04:18.618+01:00  INFO 25424 --- [MoviesService] [registrationTask1] [                                                 ] .c.b.a.c.r.DefaultApplicationRegistrator : Application registered itself as a241693b3aac
+2026-03-19T13:04:18.631+01:00  WARN 25424 --- [MoviesService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2026-03-19T13:04:18.631+01:00  WARN 25424 --- [MoviesService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 2 spans due to ConnectException()
+
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:na]
+	at org.springframework.boot.zipkin.autoconfigure.ZipkinHttpClientSender.postSpans(ZipkinHttpClientSender.java:59) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:69) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:41) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.5.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	... 1 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:na]
+	... 9 common frames omitted
+
+2026-03-19T13:04:18.721+01:00  INFO 25424 --- [MoviesService] [RMI TCP Connection(1)-10.29.16.73] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19T13:04:18.721+01:00  INFO 25424 --- [MoviesService] [RMI TCP Connection(1)-10.29.16.73] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-19T13:04:18.727+01:00  INFO 25424 --- [MoviesService] [RMI TCP Connection(1)-10.29.16.73] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-03-19T13:04:19.482+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-19T13:04:19.509+01:00  WARN 11752 --- [UserService] [restartedMain] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-19T13:04:19.514+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoints beneath base path '/actuator'
+2026-03-19T13:04:19.580+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-19T13:04:19.827+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERSERVICE with eureka with status UP
+2026-03-19T13:04:19.843+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-19T13:04:19.843+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2026-03-19T13:04:19.857+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.e.u.UserServiceApplicationKt           : Started UserServiceApplicationKt in 5.244 seconds (process running for 6.557)
+2026-03-19T13:04:19.870+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-10] [69bbe64354d4e4a55fe4dce646f23ff7-c776a75a55617681] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status UP (replication=false)
+2026-03-19T13:04:20.058+01:00  INFO 11752 --- [UserService] [registrationTask1] [                                                 ] .c.b.a.c.r.DefaultApplicationRegistrator : Application registered itself as 81e6426bc2a5
+2026-03-19T13:04:20.096+01:00  INFO 11752 --- [UserService] [http-nio-8080-exec-1] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19T13:04:20.096+01:00  INFO 11752 --- [UserService] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-19T13:04:20.099+01:00  INFO 11752 --- [UserService] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-19T13:04:20.380+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-2] [69bbe6440ea8d1e8f86430cfc8252393-f86430cfc8252393] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status UP (replication=true)
+2026-03-19T13:04:20.874+01:00  WARN 11752 --- [UserService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2026-03-19T13:04:20.874+01:00  WARN 11752 --- [UserService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 6 spans due to ConnectException()
+
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:na]
+	at org.springframework.boot.zipkin.autoconfigure.ZipkinHttpClientSender.postSpans(ZipkinHttpClientSender.java:59) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:69) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:41) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.5.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	... 1 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:202) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:786) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:874) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:na]
+	... 9 common frames omitted
+
+2026-03-19T13:05:08.095+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:06:08.100+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2026-03-19T13:07:08.106+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2026-03-19T13:08:08.108+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:09:08.108+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:10:08.120+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-03-19T13:11:08.135+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2026-03-19T13:12:08.135+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:12:55.546+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.e.g.GatewayServiceApplicationKt        : Starting GatewayServiceApplicationKt using Java 17.0.6 with PID 19128 (C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\GatewayService\build\classes\kotlin\main started by anth0 in C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service)
+2026-03-19T13:12:55.555+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.e.g.GatewayServiceApplicationKt        : No active profile set, falling back to 1 default profile: "default"
+2026-03-19T13:12:55.735+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19T13:12:58.286+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=98783301-8277-3617-8a54-e7fdd4df49cc
+2026-03-19T13:13:01.326+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2026-03-19T13:13:01.326+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2026-03-19T13:13:01.326+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2026-03-19T13:13:01.326+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2026-03-19T13:13:01.326+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2026-03-19T13:13:01.326+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2026-03-19T13:13:01.327+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2026-03-19T13:13:01.327+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2026-03-19T13:13:01.327+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2026-03-19T13:13:01.327+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2026-03-19T13:13:01.327+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2026-03-19T13:13:01.327+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Version]
+2026-03-19T13:13:01.327+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-03-19T13:13:01.327+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2026-03-19T13:13:01.327+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-03-19T13:13:02.241+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
+2026-03-19T13:13:03.320+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-19T13:13:03.417+01:00  WARN 19128 --- [GatewayService] [restartedMain] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-19T13:13:03.531+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-19T13:13:04.123+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAYSERVICE with eureka with status UP
+2026-03-19T13:13:04.217+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-3] [69bbe850b26c68ac142b06526d527a75-5c85f2d391b2dd5f] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAYSERVICE/PC_Pro:GatewayService:9090 with status UP (replication=false)
+2026-03-19T13:13:04.492+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.s.boot.reactor.netty.NettyWebServer    : Netty started on port 9090 (http)
+2026-03-19T13:13:04.493+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9090
+2026-03-19T13:13:04.726+01:00  INFO 19128 --- [GatewayService] [restartedMain] [                                                 ] o.e.g.GatewayServiceApplicationKt        : Started GatewayServiceApplicationKt in 10.855 seconds (process running for 12.325)
+2026-03-19T13:13:04.735+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-8] [69bbe85030c575717e27b07b4488460b-7e27b07b4488460b] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAYSERVICE/PC_Pro:GatewayService:9090 with status UP (replication=true)
+2026-03-19T13:13:05.194+01:00  WARN 19128 --- [GatewayService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2026-03-19T13:13:05.195+01:00  WARN 19128 --- [GatewayService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 2 spans due to ConnectException()
+
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:na]
+	at org.springframework.boot.zipkin.autoconfigure.ZipkinHttpClientSender.postSpans(ZipkinHttpClientSender.java:59) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:69) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:41) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.5.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	... 1 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:na]
+	... 9 common frames omitted
+
+2026-03-19T13:13:05.314+01:00  INFO 19128 --- [GatewayService] [registrationTask1] [                                                 ] .c.b.a.c.r.DefaultApplicationRegistrator : Application registered itself as f1b4b345a7b2
+2026-03-19T13:13:08.146+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-03-19T13:13:56.887+01:00  INFO 3744 --- [MoviesService] [http-nio-8081-exec-8] [69bbe88318c9f69db7591fbe684535ad-b7591fbe684535ad] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1354 ms
+2026-03-19T13:14:08.148+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-03-19T13:15:08.163+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2026-03-19T13:16:08.164+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:16:48.412+01:00  INFO 11752 --- [UserService] [File Watcher] [                                                 ] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2026-03-19T13:16:48.420+01:00  INFO 11752 --- [UserService] [Thread-1] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERSERVICE with eureka with status DOWN
+2026-03-19T13:16:48.429+01:00  INFO 11752 --- [UserService] [Thread-1] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19T13:16:48.430+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-7] [69bbe9301afbfea8f25c640ec8c676a8-617f1d49d7bfd3ee] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status DOWN (replication=false)
+2026-03-19T13:16:48.445+01:00  INFO 11752 --- [UserService] [tomcat-shutdown] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-19T13:16:48.939+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-1] [69bbe9308980117c60e98bb754192dca-60e98bb754192dca] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status DOWN (replication=true)
+2026-03-19T13:16:51.827+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-9] [69bbe9336f1617a618bbaec2434a989f-5834e0ed97ec2e83] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USERSERVICE/PC_Pro:UserService (replication=false)
+2026-03-19T13:16:52.047+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.e.u.UserServiceApplicationKt           : Starting UserServiceApplicationKt using Java 21.0.6 with PID 11752 (C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\UserService\build\classes\kotlin\main started by anth0 in C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service)
+2026-03-19T13:16:52.047+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.e.u.UserServiceApplicationKt           : The following 1 profile is active: "local"
+2026-03-19T13:16:52.340+01:00  WARN 27932 --- [EurekaServer] [http-nio-8761-exec-10] [69bbe934c7068185ba96377bf2b84361-ba96377bf2b84361] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: USERSERVICE/PC_Pro:UserService
+2026-03-19T13:16:52.342+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-10] [69bbe934c7068185ba96377bf2b84361-ba96377bf2b84361] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): USERSERVICE - PC_Pro:UserService
+2026-03-19T13:16:52.349+01:00  WARN 27932 --- [EurekaServer] [TaskBatchingWorker-target_localhost-7] [                                                 ] c.n.eureka.cluster.ReplicationTask       : The replication of task USERSERVICE/PC_Pro:UserService:Cancel@localhost failed with response code 404
+2026-03-19T13:16:52.349+01:00  WARN 27932 --- [EurekaServer] [TaskBatchingWorker-target_localhost-7] [                                                 ] c.netflix.eureka.cluster.PeerEurekaNode  : USERSERVICE/PC_Pro:UserService:Cancel@localhost: missing entry.
+2026-03-19T13:16:53.601+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fbd2368a-13fc-3d8c-8d73-21a20690fb9f
+2026-03-19T13:16:53.754+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-19T13:16:53.756+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-19T13:16:53.756+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19T13:16:53.821+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1771 ms
+2026-03-19T13:16:54.560+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-19T13:16:54.586+01:00  WARN 11752 --- [UserService] [restartedMain] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-19T13:16:54.591+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoints beneath base path '/actuator'
+2026-03-19T13:16:54.644+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-19T13:16:54.686+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERSERVICE with eureka with status UP
+2026-03-19T13:16:54.693+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-19T13:16:54.694+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2026-03-19T13:16:54.705+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-1] [69bbe9365aeb4ad168f3199078881470-1062b996c5d9f287] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status UP (replication=false)
+2026-03-19T13:16:54.709+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.e.u.UserServiceApplicationKt           : Started UserServiceApplicationKt in 2.763 seconds (process running for 761.408)
+2026-03-19T13:16:54.713+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-19T13:16:54.742+01:00  INFO 11752 --- [UserService] [registrationTask1] [                                                 ] .c.b.a.c.r.DefaultApplicationRegistrator : Application registered itself as 81e6426bc2a5
+2026-03-19T13:16:54.744+01:00  INFO 11752 --- [UserService] [http-nio-8080-exec-1] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19T13:16:54.744+01:00  INFO 11752 --- [UserService] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-19T13:16:54.747+01:00  INFO 11752 --- [UserService] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-19T13:16:55.218+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-6] [69bbe937dfba1db8c1bc340efe1b7aad-c1bc340efe1b7aad] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status UP (replication=true)
+2026-03-19T13:16:55.689+01:00  WARN 11752 --- [UserService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2026-03-19T13:16:55.690+01:00  WARN 11752 --- [UserService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 6 spans due to ConnectException()
+
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:na]
+	at org.springframework.boot.zipkin.autoconfigure.ZipkinHttpClientSender.postSpans(ZipkinHttpClientSender.java:59) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:69) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:41) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.5.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	... 1 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:202) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:786) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:874) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:na]
+	... 9 common frames omitted
+
+2026-03-19T13:16:56.963+01:00  INFO 11752 --- [UserService] [File Watcher] [                                                 ] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2026-03-19T13:16:56.965+01:00  INFO 11752 --- [UserService] [Thread-7] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERSERVICE with eureka with status DOWN
+2026-03-19T13:16:56.966+01:00  INFO 11752 --- [UserService] [Thread-7] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19T13:16:56.972+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-8] [69bbe9388106c97969ba94d47e4cca49-48543ea8dd2baeaf] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status DOWN (replication=false)
+2026-03-19T13:16:56.974+01:00  INFO 11752 --- [UserService] [tomcat-shutdown] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-19T13:16:57.483+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-5] [69bbe93969f5921a3c5f65afb769ce9d-3c5f65afb769ce9d] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status DOWN (replication=true)
+2026-03-19T13:17:00.712+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-9] [69bbe93cba9b5af14a3ac72461c3c0e0-1225136aa01776e3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USERSERVICE/PC_Pro:UserService (replication=false)
+2026-03-19T13:17:00.870+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.e.u.UserServiceApplicationKt           : Starting UserServiceApplicationKt using Java 21.0.6 with PID 11752 (C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\UserService\build\classes\kotlin\main started by anth0 in C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service)
+2026-03-19T13:17:00.871+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.e.u.UserServiceApplicationKt           : The following 1 profile is active: "local"
+2026-03-19T13:17:01.217+01:00  WARN 27932 --- [EurekaServer] [http-nio-8761-exec-10] [69bbe93dd662ff3c4493665ca9d2cc36-4493665ca9d2cc36] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: USERSERVICE/PC_Pro:UserService
+2026-03-19T13:17:01.217+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-10] [69bbe93dd662ff3c4493665ca9d2cc36-4493665ca9d2cc36] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): USERSERVICE - PC_Pro:UserService
+2026-03-19T13:17:01.219+01:00  WARN 27932 --- [EurekaServer] [TaskBatchingWorker-target_localhost-13] [                                                 ] c.n.eureka.cluster.ReplicationTask       : The replication of task USERSERVICE/PC_Pro:UserService:Cancel@localhost failed with response code 404
+2026-03-19T13:17:01.219+01:00  WARN 27932 --- [EurekaServer] [TaskBatchingWorker-target_localhost-13] [                                                 ] c.netflix.eureka.cluster.PeerEurekaNode  : USERSERVICE/PC_Pro:UserService:Cancel@localhost: missing entry.
+2026-03-19T13:17:01.836+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3588df70-cb27-3bb6-8814-0750c3acf6a2
+2026-03-19T13:17:01.937+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-19T13:17:01.938+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-19T13:17:01.938+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19T13:17:01.990+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1115 ms
+2026-03-19T13:17:02.737+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-19T13:17:02.767+01:00  WARN 11752 --- [UserService] [restartedMain] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-19T13:17:02.776+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoints beneath base path '/actuator'
+2026-03-19T13:17:02.846+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-19T13:17:02.883+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERSERVICE with eureka with status UP
+2026-03-19T13:17:02.889+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-19T13:17:02.892+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2026-03-19T13:17:02.905+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-1] [69bbe93e9abd07baf1dc01ad0357c4bb-ef29a17ee36b952b] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status UP (replication=false)
+2026-03-19T13:17:02.911+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] o.e.u.UserServiceApplicationKt           : Started UserServiceApplicationKt in 2.112 seconds (process running for 769.611)
+2026-03-19T13:17:02.916+01:00  INFO 11752 --- [UserService] [restartedMain] [                                                 ] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-19T13:17:02.942+01:00  INFO 11752 --- [UserService] [registrationTask1] [                                                 ] .c.b.a.c.r.DefaultApplicationRegistrator : Application registered itself as 81e6426bc2a5
+2026-03-19T13:17:02.946+01:00  INFO 11752 --- [UserService] [http-nio-8080-exec-1] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19T13:17:02.947+01:00  INFO 11752 --- [UserService] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-19T13:17:02.954+01:00  INFO 11752 --- [UserService] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-03-19T13:17:03.413+01:00  INFO 27932 --- [EurekaServer] [http-nio-8761-exec-3] [69bbe93f06f2d91442712b94e54a4273-42712b94e54a4273] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USERSERVICE/PC_Pro:UserService with status UP (replication=true)
+2026-03-19T13:17:03.896+01:00  WARN 11752 --- [UserService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2026-03-19T13:17:03.896+01:00  WARN 11752 --- [UserService] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 6 spans due to ConnectException()
+
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:na]
+	at org.springframework.boot.zipkin.autoconfigure.ZipkinHttpClientSender.postSpans(ZipkinHttpClientSender.java:59) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:69) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at org.springframework.boot.zipkin.autoconfigure.HttpSender.postSpans(HttpSender.java:41) ~[spring-boot-zipkin-4.0.3.jar:4.0.3]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.5.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	... 1 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:202) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:786) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:874) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:na]
+	... 9 common frames omitted
+
+2026-03-19T13:17:08.164+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:18:08.167+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2026-03-19T13:19:07.944+01:00  INFO 27932 --- [EurekaServer] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] [                                                 ] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2026-03-19T13:19:08.173+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2026-03-19T13:20:08.179+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2026-03-19T13:21:08.180+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-03-19T13:22:08.183+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:23:08.187+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2026-03-19T13:24:08.189+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-03-19T13:25:08.189+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:26:08.200+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-03-19T13:27:08.210+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2026-03-19T13:28:08.211+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:29:08.215+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2026-03-19T13:30:08.227+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-03-19T13:31:08.227+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:32:08.232+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2026-03-19T13:33:08.244+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-03-19T13:34:07.949+01:00  INFO 27932 --- [EurekaServer] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] [                                                 ] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2026-03-19T13:34:08.247+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:35:08.249+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:36:08.260+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2026-03-19T13:37:08.262+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:38:08.263+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:39:08.265+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:40:08.273+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2026-03-19T13:41:08.286+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2026-03-19T13:42:08.287+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-03-19T13:43:08.297+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2026-03-19T13:44:08.309+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-03-19T13:45:08.313+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2026-03-19T13:46:08.314+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:47:08.328+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2026-03-19T13:48:08.329+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:49:07.960+01:00  INFO 27932 --- [EurekaServer] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] [                                                 ] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2026-03-19T13:49:08.329+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-03-19T13:50:08.331+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:51:08.334+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:52:08.346+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-03-19T13:53:08.357+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-03-19T13:54:08.359+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:55:08.362+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:56:08.365+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2026-03-19T13:57:08.367+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-03-19T13:58:08.369+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T13:59:08.372+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:00:08.374+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:01:08.377+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:02:08.379+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:03:08.382+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:04:07.960+01:00  INFO 27932 --- [EurekaServer] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] [                                                 ] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2026-03-19T14:04:08.384+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:05:08.387+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:06:08.389+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:07:08.392+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:08:08.394+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:09:08.397+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:10:08.400+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:11:08.402+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:12:08.405+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:13:08.407+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:14:08.410+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:15:08.412+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:16:08.414+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:17:08.417+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:18:08.419+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:19:07.961+01:00  INFO 27932 --- [EurekaServer] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] [                                                 ] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2026-03-19T14:19:08.422+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:20:08.424+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:21:08.427+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:22:08.429+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:23:08.432+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:24:08.434+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:25:08.437+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:26:08.439+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-03-19T14:27:08.451+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-03-19T14:28:08.466+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2026-03-19T14:29:08.471+01:00  INFO 27932 --- [EurekaServer] [Eureka-EvictionTimer] [                                                 ] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2026-03-19T14:29:49.033+01:00  INFO 11752 --- [UserService] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERSERVICE with eureka with status DOWN
+2026-03-19T14:29:49.037+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKASERVER with eureka with status DOWN
+2026-03-19T14:29:49.038+01:00  INFO 11752 --- [UserService] [SpringApplicationShutdownHook] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19T14:29:49.041+01:00  INFO 25424 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MOVIESSERVICE with eureka with status DOWN
+2026-03-19T14:29:49.043+01:00  INFO 18180 --- [AdminService] [SpringApplicationShutdownHook] o.s.boot.reactor.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19T14:29:49.044+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19T14:29:49.049+01:00  INFO 25424 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19T14:29:49.054+01:00  INFO 19128 --- [GatewayService] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAYSERVICE with eureka with status DOWN
+2026-03-19T14:29:49.058+01:00  INFO 3744 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MOVIESSERVICE with eureka with status DOWN
+2026-03-19T14:29:49.076+01:00  INFO 19128 --- [GatewayService] [SpringApplicationShutdownHook] [                                                 ] o.s.boot.reactor.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19T14:29:49.078+01:00  INFO 3744 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19T14:29:49.081+01:00  INFO 19128 --- [GatewayService] [netty-shutdown] [                                                 ] o.s.boot.reactor.netty.GracefulShutdown  : Graceful shutdown complete
+2026-03-19T14:29:49.085+01:00  INFO 11752 --- [UserService] [tomcat-shutdown] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-19T14:29:49.140+01:00  INFO 25424 --- [MoviesService] [DiscoveryClient-CacheRefreshExecutor-%d] [69bbfa4de599938a16df739c56680ff9-16df739c56680ff9] o.a.h.c.h.i.c.HttpRequestRetryExec       : ex-0000000860 recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when sending request to http://localhost:8761;request will be automatically re-executed in 0 MILLISECONDS (exec count 2)
+2026-03-19T14:29:49.249+01:00 ERROR 27932 --- [EurekaServer] [TaskBatchingWorker-target_localhost-14] [                                                 ] c.n.e.cluster.ReplicationTaskProcessor   : Network level connection to peer localhost; retrying after delay
+
+jakarta.ws.rs.ProcessingException: org.apache.http.NoHttpResponseException: localhost:8761 failed to respond
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:535) ~[jersey-apache-connector-3.0.5.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-4.0.2.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:671) ~[jersey-client-4.0.2.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:706) ~[jersey-client-4.0.2.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:700) ~[jersey-client-4.0.2.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-4.0.2.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-4.0.2.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-4.0.2.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-4.0.2.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:700) ~[jersey-client-4.0.2.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:670) ~[jersey-client-4.0.2.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:436) ~[jersey-client-4.0.2.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:342) ~[jersey-client-4.0.2.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.http.NoHttpResponseException: localhost:8761 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:487) ~[jersey-apache-connector-3.0.5.jar:na]
+	... 16 common frames omitted
+
+2026-03-19T14:29:49.253+01:00  INFO 27932 --- [EurekaServer] [tomcat-shutdown] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-19T14:29:49.253+01:00  INFO 25424 --- [MoviesService] [DiscoveryClient-HeartbeatExecutor-%d] [69bbfa4ded1bea54e507ed8371fc2932-e507ed8371fc2932] o.a.h.c.h.i.c.HttpRequestRetryExec       : ex-0000000859 recoverable I/O exception (java.net.SocketException) caught when sending request to http://localhost:8761;request will be automatically re-executed in 0 MILLISECONDS (exec count 2)
+2026-03-19T14:29:49.266+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2026-03-19T14:29:49.266+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2026-03-19T14:29:49.266+01:00  INFO 25424 --- [MoviesService] [tomcat-shutdown] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-19T14:29:49.271+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2026-03-19T14:29:49.271+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2026-03-19T14:29:49.272+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2026-03-19T14:29:49.272+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2026-03-19T14:29:49.280+01:00  INFO 3744 --- [MoviesService] [tomcat-shutdown] [                                                 ] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-19T14:29:49.280+01:00  INFO 25424 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19T14:29:49.286+01:00  INFO 25424 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-19T14:29:49.293+01:00  INFO 3744 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19T14:29:49.302+01:00  INFO 3744 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-19T14:29:49.305+01:00  INFO 3744 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-19T14:29:49.701+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-19T14:29:49.701+01:00  INFO 27932 --- [EurekaServer] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-19T14:29:50.133+01:00  INFO 25424 --- [MoviesService] [SpringApplicationShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-19T14:29:57.166+01:00  INFO 18180 --- [AdminService] [reactor-http-nio-11] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=84b4ffb44d45, version=3, registration=Registration(name=EurekaServer, managementUrl=http://10.29.16.73:8761/actuator, healthUrl=http://10.29.16.73:8761/actuator/health, serviceUrl=http://10.29.16.73:8761/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={diskSpace={details={total=509722226688, free=76273975296, threshold=10485760, path=C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\., exists=true}, status=UP}, ping={status=UP}, discoveryComposite={components={discoveryClient={details={services=[]}, status=UP}, eureka={details={applications={}}, description=Remote status from Eureka server, status=UNKNOWN}}, status=UP}, refreshScope={status=UP}, livenessState={status=UP}, readinessState={status=UP}, ssl={details={expiringChains=[], invalidChains=[], validChains=[]}, status=UP}}), statusTimestamp=2026-03-19T12:04:18.486336Z, info=Info(values={build={artifact=EurekaServer, name=EurekaServer, time=2026-03-19T12:03:55.038Z, version=0.0.1-SNAPSHOT, group=org.example}}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://10.29.16.73:8761/actuator/caches), loggers=Endpoint(id=loggers, url=http://10.29.16.73:8761/actuator/loggers), logfile=Endpoint(id=logfile, url=http://10.29.16.73:8761/actuator/logfile), health=Endpoint(id=health, url=http://10.29.16.73:8761/actuator/health), refresh=Endpoint(id=refresh, url=http://10.29.16.73:8761/actuator/refresh), env=Endpoint(id=env, url=http://10.29.16.73:8761/actuator/env), serviceregistry=Endpoint(id=serviceregistry, url=http://10.29.16.73:8761/actuator/serviceregistry), features=Endpoint(id=features, url=http://10.29.16.73:8761/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://10.29.16.73:8761/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://10.29.16.73:8761/actuator/mappings), beans=Endpoint(id=beans, url=http://10.29.16.73:8761/actuator/beans), configprops=Endpoint(id=configprops, url=http://10.29.16.73:8761/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://10.29.16.73:8761/actuator/threaddump), sbom=Endpoint(id=sbom, url=http://10.29.16.73:8761/actuator/sbom), metrics=Endpoint(id=metrics, url=http://10.29.16.73:8761/actuator/metrics), conditions=Endpoint(id=conditions, url=http://10.29.16.73:8761/actuator/conditions), httpexchanges=Endpoint(id=httpexchanges, url=http://10.29.16.73:8761/actuator/httpexchanges), shutdown=Endpoint(id=shutdown, url=http://10.29.16.73:8761/actuator/shutdown), info=Endpoint(id=info, url=http://10.29.16.73:8761/actuator/info)}), buildVersion=0.0.1-SNAPSHOT, tags=Tags(values={}))
+
+org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: /10.29.16.73:8761
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to GET health [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:326) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:211) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:480) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:624) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:879) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:336) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:494) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:316) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:550) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector.lambda$null$7(TransportConnector.java:263) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:371) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:387) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.29.16.73:8761
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-03-19T14:29:57.176+01:00  INFO 18180 --- [AdminService] [reactor-http-nio-4] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=cf56e721ffd7, version=3, registration=Registration(name=MoviesService, managementUrl=http://10.29.16.73:8081/actuator, healthUrl=http://10.29.16.73:8081/actuator/health, serviceUrl=http://10.29.16.73:8081/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={diskSpace={details={total=509722226688, free=76273975296, threshold=10485760, path=C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\., exists=true}, status=UP}, ping={status=UP}, discoveryComposite={components={discoveryClient={details={services=[]}, status=UP}, eureka={details={applications={}}, description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP}}, status=UP}, refreshScope={status=UP}, livenessState={status=UP}, readinessState={status=UP}, ssl={details={expiringChains=[], invalidChains=[], validChains=[]}, status=UP}, db={details={database=H2, validationQuery=isValid()}, status=UP}}), statusTimestamp=2026-03-19T12:04:18.605335800Z, info=Info(values={build={artifact=MoviesService, name=MoviesService, time=2026-03-19T12:04:02.575Z, version=0.0.1-SNAPSHOT, group=org.example}}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://10.29.16.73:8081/actuator/caches), loggers=Endpoint(id=loggers, url=http://10.29.16.73:8081/actuator/loggers), logfile=Endpoint(id=logfile, url=http://10.29.16.73:8081/actuator/logfile), health=Endpoint(id=health, url=http://10.29.16.73:8081/actuator/health), refresh=Endpoint(id=refresh, url=http://10.29.16.73:8081/actuator/refresh), env=Endpoint(id=env, url=http://10.29.16.73:8081/actuator/env), serviceregistry=Endpoint(id=serviceregistry, url=http://10.29.16.73:8081/actuator/serviceregistry), features=Endpoint(id=features, url=http://10.29.16.73:8081/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://10.29.16.73:8081/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://10.29.16.73:8081/actuator/mappings), beans=Endpoint(id=beans, url=http://10.29.16.73:8081/actuator/beans), configprops=Endpoint(id=configprops, url=http://10.29.16.73:8081/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://10.29.16.73:8081/actuator/threaddump), sbom=Endpoint(id=sbom, url=http://10.29.16.73:8081/actuator/sbom), metrics=Endpoint(id=metrics, url=http://10.29.16.73:8081/actuator/metrics), conditions=Endpoint(id=conditions, url=http://10.29.16.73:8081/actuator/conditions), httpexchanges=Endpoint(id=httpexchanges, url=http://10.29.16.73:8081/actuator/httpexchanges), shutdown=Endpoint(id=shutdown, url=http://10.29.16.73:8081/actuator/shutdown), info=Endpoint(id=info, url=http://10.29.16.73:8081/actuator/info)}), buildVersion=0.0.1-SNAPSHOT, tags=Tags(values={}))
+
+org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: /10.29.16.73:8081
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to GET health [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:326) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:211) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:480) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:624) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:879) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:336) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:494) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:316) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:550) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector.lambda$null$7(TransportConnector.java:263) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:371) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:387) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.29.16.73:8081
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-03-19T14:29:57.189+01:00  INFO 18180 --- [AdminService] [reactor-http-nio-1] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=81e6426bc2a5, version=6, registration=Registration(name=UserService, managementUrl=http://10.29.16.73:8080/actuator, healthUrl=http://10.29.16.73:8080/actuator/health, serviceUrl=http://10.29.16.73:8080/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={diskSpace={details={total=509722226688, free=76273958912, threshold=10485760, path=C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\., exists=true}, status=UP}, ping={status=UP}, discoveryComposite={components={discoveryClient={details={services=[]}, status=UP}, eureka={details={applications={}}, description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP}}, status=UP}, refreshScope={status=UP}, livenessState={status=UP}, readinessState={status=UP}, ssl={details={expiringChains=[], invalidChains=[], validChains=[]}, status=UP}}), statusTimestamp=2026-03-19T12:04:20.199360800Z, info=Info(values={build={artifact=UserService, name=UserService, time=2026-03-19T12:16:43.003Z, version=0.0.1-SNAPSHOT, group=org.example}}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://10.29.16.73:8080/actuator/caches), loggers=Endpoint(id=loggers, url=http://10.29.16.73:8080/actuator/loggers), logfile=Endpoint(id=logfile, url=http://10.29.16.73:8080/actuator/logfile), health=Endpoint(id=health, url=http://10.29.16.73:8080/actuator/health), refresh=Endpoint(id=refresh, url=http://10.29.16.73:8080/actuator/refresh), env=Endpoint(id=env, url=http://10.29.16.73:8080/actuator/env), serviceregistry=Endpoint(id=serviceregistry, url=http://10.29.16.73:8080/actuator/serviceregistry), features=Endpoint(id=features, url=http://10.29.16.73:8080/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://10.29.16.73:8080/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://10.29.16.73:8080/actuator/mappings), beans=Endpoint(id=beans, url=http://10.29.16.73:8080/actuator/beans), configprops=Endpoint(id=configprops, url=http://10.29.16.73:8080/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://10.29.16.73:8080/actuator/threaddump), sbom=Endpoint(id=sbom, url=http://10.29.16.73:8080/actuator/sbom), metrics=Endpoint(id=metrics, url=http://10.29.16.73:8080/actuator/metrics), conditions=Endpoint(id=conditions, url=http://10.29.16.73:8080/actuator/conditions), httpexchanges=Endpoint(id=httpexchanges, url=http://10.29.16.73:8080/actuator/httpexchanges), shutdown=Endpoint(id=shutdown, url=http://10.29.16.73:8080/actuator/shutdown), info=Endpoint(id=info, url=http://10.29.16.73:8080/actuator/info)}), buildVersion=0.0.1-SNAPSHOT, tags=Tags(values={}))
+
+org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: /10.29.16.73:8080
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to GET health [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:326) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:211) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:480) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:624) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:879) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:336) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:494) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:316) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:550) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector.lambda$null$7(TransportConnector.java:263) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:371) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:387) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.29.16.73:8080
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-03-19T14:29:57.195+01:00  INFO 18180 --- [AdminService] [reactor-http-nio-14] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=f1b4b345a7b2, version=2, registration=Registration(name=GatewayService, managementUrl=http://10.29.16.73:9090/actuator, healthUrl=http://10.29.16.73:9090/actuator/health, serviceUrl=http://10.29.16.73:9090/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={reactiveDiscoveryClients={components={Simple Reactive Discovery Client={details={services=[]}, status=UP}, Spring Cloud Eureka Reactive Discovery Client={details={services=[moviesservice, userservice]}, status=UP}}, status=UP}, diskSpace={details={total=509722226688, free=76451274752, threshold=10485760, path=C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\., exists=true}, status=UP}, ping={status=UP}, discoveryComposite={components={discoveryClient={details={services=[moviesservice, userservice]}, status=UP}, eureka={details={applications={MOVIESSERVICE=2, USERSERVICE=1}}, description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP}}, status=UP}, refreshScope={status=UP}, livenessState={status=UP}, readinessState={status=UP}, ssl={details={expiringChains=[], invalidChains=[], validChains=[]}, status=UP}}), statusTimestamp=2026-03-19T12:13:05.760518400Z, info=Info(values={}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://10.29.16.73:9090/actuator/caches), loggers=Endpoint(id=loggers, url=http://10.29.16.73:9090/actuator/loggers), logfile=Endpoint(id=logfile, url=http://10.29.16.73:9090/actuator/logfile), health=Endpoint(id=health, url=http://10.29.16.73:9090/actuator/health), refresh=Endpoint(id=refresh, url=http://10.29.16.73:9090/actuator/refresh), env=Endpoint(id=env, url=http://10.29.16.73:9090/actuator/env), serviceregistry=Endpoint(id=serviceregistry, url=http://10.29.16.73:9090/actuator/serviceregistry), features=Endpoint(id=features, url=http://10.29.16.73:9090/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://10.29.16.73:9090/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://10.29.16.73:9090/actuator/mappings), beans=Endpoint(id=beans, url=http://10.29.16.73:9090/actuator/beans), configprops=Endpoint(id=configprops, url=http://10.29.16.73:9090/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://10.29.16.73:9090/actuator/threaddump), sbom=Endpoint(id=sbom, url=http://10.29.16.73:9090/actuator/sbom), metrics=Endpoint(id=metrics, url=http://10.29.16.73:9090/actuator/metrics), conditions=Endpoint(id=conditions, url=http://10.29.16.73:9090/actuator/conditions), shutdown=Endpoint(id=shutdown, url=http://10.29.16.73:9090/actuator/shutdown), info=Endpoint(id=info, url=http://10.29.16.73:9090/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: /10.29.16.73:9090
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to GET health [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:326) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:211) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:480) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:624) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:879) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:336) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:494) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:316) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:550) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector.lambda$null$7(TransportConnector.java:263) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:371) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:387) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.29.16.73:9090
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-03-19T14:30:07.142+01:00  INFO 18180 --- [AdminService] [reactor-http-nio-6] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=a241693b3aac, version=3, registration=Registration(name=MoviesService, managementUrl=http://10.29.16.73:8082/actuator, healthUrl=http://10.29.16.73:8082/actuator/health, serviceUrl=http://10.29.16.73:8082/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={diskSpace={details={total=509722226688, free=76273958912, threshold=10485760, path=C:\Users\anth0\Leviia\Adrar\2026\03_ipi_m1_micro_service\., exists=true}, status=UP}, ping={status=UP}, discoveryComposite={components={discoveryClient={details={services=[]}, status=UP}, eureka={details={applications={}}, description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP}}, status=UP}, refreshScope={status=UP}, livenessState={status=UP}, readinessState={status=UP}, ssl={details={expiringChains=[], invalidChains=[], validChains=[]}, status=UP}, db={details={database=H2, validationQuery=isValid()}, status=UP}}), statusTimestamp=2026-03-19T12:04:18.920374300Z, info=Info(values={build={artifact=MoviesService, name=MoviesService, time=2026-03-19T12:04:02.575Z, version=0.0.1-SNAPSHOT, group=org.example}}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://10.29.16.73:8082/actuator/caches), loggers=Endpoint(id=loggers, url=http://10.29.16.73:8082/actuator/loggers), logfile=Endpoint(id=logfile, url=http://10.29.16.73:8082/actuator/logfile), health=Endpoint(id=health, url=http://10.29.16.73:8082/actuator/health), refresh=Endpoint(id=refresh, url=http://10.29.16.73:8082/actuator/refresh), env=Endpoint(id=env, url=http://10.29.16.73:8082/actuator/env), serviceregistry=Endpoint(id=serviceregistry, url=http://10.29.16.73:8082/actuator/serviceregistry), features=Endpoint(id=features, url=http://10.29.16.73:8082/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://10.29.16.73:8082/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://10.29.16.73:8082/actuator/mappings), beans=Endpoint(id=beans, url=http://10.29.16.73:8082/actuator/beans), configprops=Endpoint(id=configprops, url=http://10.29.16.73:8082/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://10.29.16.73:8082/actuator/threaddump), sbom=Endpoint(id=sbom, url=http://10.29.16.73:8082/actuator/sbom), metrics=Endpoint(id=metrics, url=http://10.29.16.73:8082/actuator/metrics), conditions=Endpoint(id=conditions, url=http://10.29.16.73:8082/actuator/conditions), httpexchanges=Endpoint(id=httpexchanges, url=http://10.29.16.73:8082/actuator/httpexchanges), shutdown=Endpoint(id=shutdown, url=http://10.29.16.73:8082/actuator/shutdown), info=Endpoint(id=info, url=http://10.29.16.73:8082/actuator/info)}), buildVersion=0.0.1-SNAPSHOT, tags=Tags(values={}))
+
+org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: /10.29.16.73:8082
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to GET health [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.5.jar:7.0.5]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:326) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:211) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:480) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:624) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:879) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:336) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:494) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:206) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:316) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.3.jar:3.8.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:550) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at reactor.netty.transport.TransportConnector.lambda$null$7(TransportConnector.java:263) ~[reactor-netty-core-1.3.3.jar:1.3.3]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:371) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:387) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.29.16.73:8082
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.10.Final.jar:4.2.10.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-03-19T14:30:19.058+01:00  INFO 18180 --- [AdminService] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Shutdown phase 2147482623 ends with 1 bean still running after timeout of 30000ms: [webServerGracefulShutdown]
+2026-03-19T14:30:19.059+01:00  INFO 18180 --- [AdminService] [netty-shutdown] o.s.boot.reactor.netty.GracefulShutdown  : Graceful shutdown aborted with one or more requests still active

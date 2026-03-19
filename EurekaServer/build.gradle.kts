@@ -1,3 +1,5 @@
+import org.gradle.kotlin.dsl.kotlin
+
 plugins {
     kotlin("jvm") version "2.2.21"
     kotlin("plugin.spring") version "2.2.21"
@@ -15,15 +17,23 @@ java {
     }
 }
 
+springBoot {
+    buildInfo() // <-- Génère `build-info.properties` pour l'affichage sur Eureka
+}
+
 repositories {
     mavenCentral()
 }
 
 extra["springCloudVersion"] = "2025.1.0"
+val springBootAdminVersion by extra("4.0.2")
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server")
+    implementation("de.codecentric:spring-boot-admin-starter-client")
+    implementation("org.springframework.boot:spring-boot-starter-zipkin")
+    implementation("io.micrometer:micrometer-tracing-bridge-brave")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
@@ -33,6 +43,7 @@ dependencies {
 dependencyManagement {
     imports {
         mavenBom("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudVersion")}")
+        mavenBom("de.codecentric:spring-boot-admin-dependencies:$springBootAdminVersion")
     }
 }
 

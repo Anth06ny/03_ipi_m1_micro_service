@@ -2,12 +2,21 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AdminService" options="-parameters" />
+      <module name="AdminService.main" options="-parameters" />
+      <module name="AdminService.test" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
       <module name="EurekaServer.main" options="-parameters" />
       <module name="EurekaServer.test" options="-parameters" />
+      <module name="GatewayService" options="-parameters" />
+      <module name="GatewayService.main" options="-parameters" />
+      <module name="GatewayService.test" options="-parameters" />
       <module name="MoviesService" options="-parameters" />
       <module name="MoviesService.main" options="-parameters" />
       <module name="MoviesService.test" options="-parameters" />
+      <module name="TestReactor" options="-parameters" />
+      <module name="TestReactor.main" options="-parameters" />
+      <module name="TestReactor.test" options="-parameters" />
       <module name="UserService" options="-parameters" />
       <module name="UserService.main" options="-parameters" />
       <module name="UserService.test" options="-parameters" />

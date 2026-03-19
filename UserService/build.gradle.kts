@@ -5,6 +5,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.7"
 }
 val springCloudVersion by extra("2025.1.0")
+val springBootAdminVersion by extra("4.0.2")
 
 group = "org.example"
 version = "0.0.1-SNAPSHOT"
@@ -14,6 +15,10 @@ java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
     }
+}
+
+springBoot {
+    buildInfo() // <-- Génère `build-info.properties` pour l'affichage sur Eureka
 }
 
 repositories {
@@ -26,6 +31,10 @@ dependencies {
     implementation("tools.jackson.module:jackson-module-kotlin")
     implementation("org.springframework.cloud:spring-cloud-starter-loadbalancer")
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+    implementation("de.codecentric:spring-boot-admin-starter-client")
+    implementation("org.springframework.boot:spring-boot-starter-zipkin")
+    implementation("io.micrometer:micrometer-tracing-bridge-brave")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
@@ -48,6 +57,7 @@ tasks.named<org.springframework.boot.gradle.tasks.bundling.BootJar>("bootJar") {
 dependencyManagement {
     imports {
         mavenBom("org.springframework.cloud:spring-cloud-dependencies:$springCloudVersion")
+        mavenBom("de.codecentric:spring-boot-admin-dependencies:$springBootAdminVersion")
     }
 }
 
